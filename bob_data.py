@@ -22,8 +22,8 @@ most_common_index = df["Percentage of Paintings Containing the Element:"].idxmax
 bars[most_common_index].set_color("green") #---------------------------------------------/
 
 
-plt.xlabel("Painting Elements") #------------------------------------------------\
-plt.ylabel("Percentage of Paintings Containing the Element") #                    |---------------------------------------------------------------->  Adds labels and a title to the graph
+plt.xlabel("Percentage of Paintings Containing the Element") #-------------------\
+plt.ylabel("Painting Elements") #                                                 |---------------------------------------------------------------->  Adds labels and a title to the graph
 plt.title("Elements in Bob Ross Paintings") #------------------------------------/
 
 plt.xticks(rotation=45)  #------------------------------------------------------------------------------------------------------------------------->  Rotates the x-axis labels
